@@ -17,6 +17,7 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     compileSdkVersion 32
+    namespace "co.paystack.flutterpaystackexample"
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
